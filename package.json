@@ -1,0 +1,31 @@
+{
+  "name": "skills-create-applications-with-the-copilot-cli",
+  "version": "1.0.0",
+  "description": "A Node.js CLI calculator for basic arithmetic operations.",
+  "main": "src/calculator.js",
+  "bin": {
+    "calculator": "./src/calculator.js"
+  },
+  "scripts": {
+    "start": "node src/calculator.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwirajaya/skills-create-applications-with-the-copilot-cli.git"
+  },
+  "keywords": [
+    "calculator",
+    "cli",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwirajaya/skills-create-applications-with-the-copilot-cli/issues"
+  },
+  "homepage": "https://github.com/dwirajaya/skills-create-applications-with-the-copilot-cli#readme",
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
